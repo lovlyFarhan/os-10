@@ -1,0 +1,40 @@
+1
+args.c
+args.cpp
+array.c
+array.cpp
+fileIO.c
+fileIO.cpp
+hello.c
+hello.cpp
+IntList
+out
+readFile
+readFile.cpp
+sample.txt
+temp.txt
+TimeAnalysis.txt
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+1
+args.c
+args.cpp
+array.c
+array.cpp
+fileIO.c
+fileIO.cpp
+hello.c
+hello.cpp
+IntList
+out
+readFile
+readFile.cpp
+sample.txt
+temp.txt
+TimeAnalysis.txt
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s

@@ -1,0 +1,5 @@
+ami-id: ami-a0cd60c9
+kernel-id: aki-b6aa75df
+instance-type: t1.micro
+local-hostname: ip-10-117-55-17.ec2.internal
+public-hostname: ec2-75-101-233-19.compute-1.amazonaws.com

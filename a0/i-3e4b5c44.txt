@@ -1,0 +1,22 @@
+/**********************************
+Last Name: Ludwig
+First Name: Mitchell
+Student ID: 10015370
+Course: CPSC 457
+Tutorial Section: T02
+Assignment: 0
+Question: P1Q1
+
+File name: i-3e4b5c44.txt 
+**********************************/
+
+$ ./ec2-metadata -a
+ami-id: ami-a0cd60c9
+$ ./ec2-metadata -k
+kernel-id: aki-b6aa75df
+$ ./ec2-metadata -t
+instance-type: t1.micro
+$ ./ec2-metadata -h
+local-hostname: ip-10-117-55-17.ec2.internal
+$ ./ec2-metadata -p
+public-hostname: ec2-75-101-233-19.compute-1.amazonaws.com

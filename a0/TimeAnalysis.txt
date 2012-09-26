@@ -1,0 +1,64 @@
+/**********************************
+Last Name: Ludwig
+First Name: Mitchell
+Student ID: 10015370
+Course: CPSC 457
+Tutorial Section: T02
+Assignment: 0 
+Question: P1Q2
+
+File name:  
+**********************************/
+
+
+/* readFile */
+Sonnet 18 
+by William Shakespeare
+
+Shall I compare thee to a summer's day?
+Thou art more lovely and more temperate:
+Rough winds do shake the darling buds of May,
+And summer's lease hath all too short a date:
+Sometime too hot the eye of heaven shines,
+And often is his gold complexion dimm'd;
+And every fair from fair sometime declines,
+By chance, or nature's changing course, untrimm'd;
+But thy eternal summer shall not fade,
+Nor lose possession of that fair thou owest;
+Nor shall Death brag thou wander'st in his shade,
+When in eternal lines to time thou growest;
+So long as men can breathe, or eyes can see,
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.002s
+
+
+
+/* cat */
+Sonnet 18 
+by William Shakespeare
+
+Shall I compare thee to a summer's day?
+Thou art more lovely and more temperate:
+Rough winds do shake the darling buds of May,
+And summer's lease hath all too short a date:
+Sometime too hot the eye of heaven shines,
+And often is his gold complexion dimm'd;
+And every fair from fair sometime declines,
+By chance, or nature's changing course, untrimm'd;
+But thy eternal summer shall not fade,
+Nor lose possession of that fair thou owest;
+Nor shall Death brag thou wander'st in his shade,
+When in eternal lines to time thou growest;
+So long as men can breathe, or eyes can see,
+So long lives this, and this gives life to thee.
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+
+/* questions */
+cat is faster.
+My program spent .003s in real time, neglegible time in user mode, and .0002s in kernel mode. cat spent .002s in real time, again neglegible time in user mode, and 0.001s in kernel mode.
+cat is faster because it has less overhead. It likely uses a function that
+reads to the end of the stream that is more efficient than my getLine method.

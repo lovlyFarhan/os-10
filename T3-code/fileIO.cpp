@@ -12,26 +12,8 @@ using namespace std;
 
 int main(int argc, char * argv[])
 {
-    ofstream outfile;
     ifstream infile;
-    // or you may create a fstream instance for both reading and writing
-    
-    // Check for the right number of parameters
-    if (argc != 2)
-    {
-        cout << "Usage: fileIO <filename>" << endl;
-        return -1;
-    }
-
-    // Open the file for writing
-    outfile.open(argv[1]);
-    
-    // Write to the file
-    outfile << "Hello" << endl;
-    
-    // Close the file
-    outfile.close();
-    
+    cout << argc << endl; 
     // Open the file again for reading
     infile.open(argv[1]);
     
