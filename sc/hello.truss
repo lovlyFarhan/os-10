@@ -1,0 +1,71 @@
+execve("hello", 0xFFBFFBEC, 0xFFBFFBF4)  argc = 1
+resolvepath("/usr/lib/ld.so.1", "/lib/ld.so.1", 1023) = 12
+getcwd("/home/profs/meawang/examples", 1017)	= 0
+resolvepath("/home/profs/meawang/examples/hello", "/home/profs/meawang/examples/hello", 1023) = 34
+stat("/home/profs/meawang/examples/hello", 0xFFBFF9C8) = 0
+open("/var/ld/ld.config", O_RDONLY)		Err#2 ENOENT
+stat("/usr/sfw/lib/libstdc++.so.6", 0xFFBFF480)	= 0
+resolvepath("/usr/sfw/lib/libstdc++.so.6", "/usr/sfw/lib/libstdc++.so.6.0.3", 1023) = 31
+open("/usr/sfw/lib/libstdc++.so.6", O_RDONLY)	= 3
+mmap(0x00010000, 32768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_ALIGN, 3, 0) = 0xFF3A0000
+mmap(0x00010000, 966656, PROT_NONE, MAP_PRIVATE|MAP_NORESERVE|MAP_ANON|MAP_ALIGN, -1, 0) = 0xFF280000
+mmap(0xFF280000, 777816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_TEXT, 3, 0) = 0xFF280000
+mmap(0xFF34C000, 105272, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_INITDATA, 3, 770048) = 0xFF34C000
+mmap(0xFF366000, 21488, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANON, -1, 0) = 0xFF366000
+munmap(0xFF33E000, 57344)			= 0
+memcntl(0xFF280000, 316728, MC_ADVISE, MADV_WILLNEED, 0, 0) = 0
+close(3)					= 0
+stat("/usr/sfw/lib/libm.so.2", 0xFFBFF480)	Err#2 ENOENT
+stat("/lib/libm.so.2", 0xFFBFF480)		= 0
+resolvepath("/lib/libm.so.2", "/lib/libm.so.2", 1023) = 14
+open("/lib/libm.so.2", O_RDONLY)		= 3
+mmap(0xFF3A0000, 32768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0xFF3A0000
+mmap(0x00010000, 786432, PROT_NONE, MAP_PRIVATE|MAP_NORESERVE|MAP_ANON|MAP_ALIGN, -1, 0) = 0xFF180000
+mmap(0xFF180000, 693647, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_TEXT, 3, 0) = 0xFF180000
+mmap(0xFF238000, 28592, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_INITDATA, 3, 688128) = 0xFF238000
+munmap(0xFF22A000, 57344)			= 0
+memcntl(0xFF180000, 33076, MC_ADVISE, MADV_WILLNEED, 0, 0) = 0
+close(3)					= 0
+stat("/usr/sfw/lib/libgcc_s.so.1", 0xFFBFF480)	= 0
+resolvepath("/usr/sfw/lib/libgcc_s.so.1", "/usr/sfw/lib/libgcc_s.so.1", 1023) = 26
+open("/usr/sfw/lib/libgcc_s.so.1", O_RDONLY)	= 3
+mmap(0xFF3A0000, 32768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0xFF3A0000
+mmap(0x00010000, 106496, PROT_NONE, MAP_PRIVATE|MAP_NORESERVE|MAP_ANON|MAP_ALIGN, -1, 0) = 0xFF380000
+mmap(0xFF380000, 33952, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_TEXT, 3, 0) = 0xFF380000
+mmap(0xFF398000, 3372, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_INITDATA, 3, 32768) = 0xFF398000
+munmap(0xFF38A000, 57344)			= 0
+mmap(0x00000000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANON, -1, 0) = 0xFF270000
+memcntl(0xFF380000, 6320, MC_ADVISE, MADV_WILLNEED, 0, 0) = 0
+close(3)					= 0
+stat("/usr/sfw/lib/libc.so.1", 0xFFBFF480)	Err#2 ENOENT
+stat("/lib/libc.so.1", 0xFFBFF480)		= 0
+resolvepath("/lib/libc.so.1", "/lib/libc.so.1", 1023) = 14
+open("/lib/libc.so.1", O_RDONLY)		= 3
+mmap(0xFF3A0000, 32768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0xFF3A0000
+mmap(0x00010000, 1015808, PROT_NONE, MAP_PRIVATE|MAP_NORESERVE|MAP_ANON|MAP_ALIGN, -1, 0) = 0xFF080000
+mmap(0xFF080000, 904957, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_TEXT, 3, 0) = 0xFF080000
+mmap(0xFF16E000, 32017, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_INITDATA, 3, 909312) = 0xFF16E000
+mmap(0xFF176000, 5984, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANON, -1, 0) = 0xFF176000
+munmap(0xFF15E000, 65536)			= 0
+memcntl(0xFF080000, 144020, MC_ADVISE, MADV_WILLNEED, 0, 0) = 0
+close(3)					= 0
+stat("/usr/sfw/lib/libm.so.2", 0xFFBFF480)	Err#2 ENOENT
+stat("/usr/sfw/lib/libc.so.1", 0xFFBFF480)	Err#2 ENOENT
+stat("/usr/sfw/lib/libc.so.1", 0xFFBFF480)	Err#2 ENOENT
+mmap(0x00010000, 24576, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANON|MAP_ALIGN, -1, 0) = 0xFF260000
+munmap(0xFF3A0000, 32768)			= 0
+getcontext(0xFFBFF6B8)
+getrlimit(RLIMIT_STACK, 0xFFBFF698)		= 0
+getpid()					= 16137 [16136]
+setustack(0xFF262A88)
+sysconfig(_CONFIG_STACK_PROT)			= 7
+stat("/platform/SUNW,Sun-Fire-V210/lib/libc_psr.so.1", 0xFFBFF078) = 0
+resolvepath("/platform/SUNW,Sun-Fire-V210/lib/libc_psr.so.1", "/platform/sun4u-us3/lib/libc_psr.so.1", 1023) = 37
+open("/platform/SUNW,Sun-Fire-V210/lib/libc_psr.so.1", O_RDONLY) = 3
+mmap(0x00010000, 32768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_ALIGN, 3, 0) = 0xFF250000
+munmap(0xFF252000, 24576)			= 0
+close(3)					= 0
+ioctl(1, TCGETA, 0xFFBFF86C)			= 0
+fstat64(1, 0xFFBFF788)				= 0
+write(1, " H e l l o   W o r l d !".., 13)	= 13
+_exit(0)
