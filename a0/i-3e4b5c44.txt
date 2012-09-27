@@ -10,13 +10,13 @@ Question: P1Q1
 File name: i-3e4b5c44.txt 
 **********************************/
 
-$ ./ec2-metadata -a
+$ ./ec2-metadata -a   #Amazon Machine Image id
 ami-id: ami-a0cd60c9
-$ ./ec2-metadata -k
+$ ./ec2-metadata -k   #Kernel version id
 kernel-id: aki-b6aa75df
-$ ./ec2-metadata -t
+$ ./ec2-metadata -t   #Instance type
 instance-type: t1.micro
-$ ./ec2-metadata -h
+$ ./ec2-metadata -h   #Local hostname
 local-hostname: ip-10-117-55-17.ec2.internal
-$ ./ec2-metadata -p
+$ ./ec2-metadata -p   #Public hostname
 public-hostname: ec2-75-101-233-19.compute-1.amazonaws.com
