@@ -10,9 +10,9 @@ Question: P1Q1
 File name: i-3e4b5c44.txt 
 **********************************/
 
-$ ./ec2-metadata -a   #Amazon Machine Image id
+$ ./ec2-metadata -a   #Amazon Machine Image id used to launch this instance
 ami-id: ami-a0cd60c9
-$ ./ec2-metadata -k   #Kernel version id
+$ ./ec2-metadata -k   #Kernel id launched with this instance
 kernel-id: aki-b6aa75df
 $ ./ec2-metadata -t   #Instance type
 instance-type: t1.micro
