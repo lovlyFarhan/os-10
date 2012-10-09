@@ -1,0 +1,1 @@
+scp -i ~/Desktop/os/mlkey.pem $1 ec2-user@54.243.233.152:~/os
