@@ -9,6 +9,7 @@
 #include <iostream>  // for cout
 #include <string.h>  // for strerror()
 #include <errno.h>   // for errno
+#include <stdlib.h>  // for atoi()
 
 using namespace std;
 
